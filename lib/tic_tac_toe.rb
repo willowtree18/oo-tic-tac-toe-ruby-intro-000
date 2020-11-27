@@ -56,7 +56,7 @@ end
             turn
         end
         if won?
-<<<<<<< HEAD
+
           @winner = winner
           puts "Congratulations #{@winner}!"
 
@@ -64,7 +64,7 @@ end
               puts "Cat's Game!"
         end
 
-=======
+if won?
           winner == "X" || winner == "O"
           puts "Congratulations #{winner(@board)}!"
 
