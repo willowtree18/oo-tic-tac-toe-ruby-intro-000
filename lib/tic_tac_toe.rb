@@ -56,6 +56,7 @@ end
             turn
         end
         if won?
+<<<<<<< HEAD
           @winner = winner
           puts "Congratulations #{@winner}!"
 
@@ -63,6 +64,14 @@ end
               puts "Cat's Game!"
         end
 
+=======
+          winner == "X" || winner == "O"
+          puts "Congratulations #{winner(@board)}!"
+
+        else draw?
+              puts "Cat's Game!"
+        end
+>>>>>>> 16567264c069a55d00d08ab34731d60c43671c5e
         end
 
 
@@ -123,10 +132,18 @@ end
         end
 
         def winner
+<<<<<<< HEAD
           if win_combination = won?
     return @board[win_combination.first]
 
 end
 end
+=======
+          if won?
+            return @board
+          end
+        end
+
+>>>>>>> 16567264c069a55d00d08ab34731d60c43671c5e
 
 end
