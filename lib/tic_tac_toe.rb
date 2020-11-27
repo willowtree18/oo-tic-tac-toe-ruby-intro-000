@@ -71,7 +71,7 @@ if won?
         else draw?
               puts "Cat's Game!"
         end
->>>>>>> 16567264c069a55d00d08ab34731d60c43671c5e
+
         end
 
 
